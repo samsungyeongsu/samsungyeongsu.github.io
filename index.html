@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>삼성영수학원 학습 성장 리포트</title>
+<meta name="description" content="배우고 깨우치며 한 걸음씩 성장한 모습을 전해드립니다.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="삼성영수학원">
+<meta property="og:title" content="삼성영수학원 학습 성장 리포트">
+<meta property="og:description" content="배우고 깨우치며 한 걸음씩 성장한 모습을 전해드립니다.">
+<meta property="og:image" content="https://samsungyeongsu.github.io/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://samsungyeongsu.github.io/">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+html,body{margin:0;height:100%;background:#FFFCFB;font-family:-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',sans-serif;color:#3B2A25}
+.w{min-height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px;box-sizing:border-box}
+.t{font-size:26px;font-weight:800;color:#EC5F5F;letter-spacing:1px}
+.s{margin-top:10px;font-size:15px;line-height:1.6;word-break:keep-all}
+.d{width:34px;height:34px;margin:22px auto 0;border:4px solid #FDE3E4;border-top-color:#EC5F5F;border-radius:50%;animation:r 1s linear infinite}
+@keyframes r{to{transform:rotate(360deg)}}
+a{color:#EC5F5F}
+</style>
+</head>
+<body>
+<div class="w">
+  <div class="t">삼성영수학원</div>
+  <div class="s" id="m">우리 아이의 학습 리포트를 여는 중이에요.</div>
+  <div class="d" id="d"></div>
+</div>
+<script>
+(function(){
+  var APP = 'https://script.google.com/macros/s/AKfycbwUwP7QpV88ue9vwsHXnWXnTB0zxzCD3bWQr7FEST7ESjaSWk72cHzcnOOTvaUzPFdptw/exec';
+  var q = location.search || '';
+  if (/[?&]r=[A-Za-z0-9]+/.test(q)) { location.replace(APP + q); return; }
+  document.getElementById('d').style.display = 'none';
+  document.getElementById('m').innerHTML = '리포트 링크를 다시 확인해 주세요.<br>학원에서 보내드린 카카오톡 링크로 열어 주세요.';
+})();
+</script>
+</body>
+</html>
